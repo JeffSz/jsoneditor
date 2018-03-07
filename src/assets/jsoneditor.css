@@ -1,0 +1,40 @@
+.intent {
+  margin-left: 20px;
+  width: 100%;
+}
+.fix50 {
+  width: 50px;
+}
+.selector {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 0;
+}
+.bg {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  background: url('./jsoneditor-icons.png');
+}
+.fold {
+  background-position: 0px -48px;
+}
+.expand {
+  background-position: 0px -72px;
+}
+.simple {
+  background-position: -48px -24px;
+}
+.map {
+  background-position: -72px -24px;
+}
+.array {
+  background-position: -96px -24px;
+}
+.show {
+  display: block;
+}
