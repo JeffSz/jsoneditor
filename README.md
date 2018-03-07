@@ -24,7 +24,7 @@ npm run e2e
 npm test
 ```
 
-Demo:
+## Demo:
 ```
 <script>
 import Jitem from './components/Jitem'
@@ -54,11 +54,12 @@ export default {
 </script>
 ```
 
-Param:
-  value: value be edited.
-  name: value name.
-  showLength: max length showed in the editor of the value string.
-Message:
-  change(newVal): triggered by the change event of the editor.
-  error(msg): triggered by error event in the editor.
-  copy(valueString): triggered by copy action on item
+## Param:
+* value: value be edited.
+* name: value name.
+* showLength: max length showed in the editor of the value string.
+
+## Message:
+* change(newVal): triggered by the change event of the editor.
+* error(msg): triggered by error event in the editor.
+* copy(valueString): triggered by copy action on item
